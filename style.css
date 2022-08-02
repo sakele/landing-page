@@ -146,3 +146,33 @@ button {
     padding: 18px;
     text-align: center;
 }
+
+.main .three {
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: -400px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
