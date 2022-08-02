@@ -141,4 +141,8 @@ button {
 
 .footer {
     margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    text-align: center;
 }
