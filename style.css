@@ -4,12 +4,27 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    gap: 0;
+}
+p {
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    text-align: center;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    padding: 10px 40px;
+    border-radius: 8px;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 96px;
 }
 .logo {
     font-size: 24px;
@@ -20,8 +35,52 @@ body {
     display: flex;
     gap: 24px;
 }
-.header, .main.one {
+.header, .main .one {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+}
+.header, .main .one, .footer {
+    padding: 24px 96px;
+    margin: 0;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+.main .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 84px;
+}
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 250px;
+}
+.right {
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text {
+    padding: 10px 0;
 }
